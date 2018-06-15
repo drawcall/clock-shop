@@ -3,15 +3,15 @@
     <div class="container">
         <div class="page-title text-center">
             <h1>Clock Exhibition Counter</h1>
-            <p>All the code comes from the codepen site. They are really great. 
+            <p>All the code comes from the <a href="https://codepen.io/" target="_blank">codepen</a> site. They are really great. 
                 <br>I want to pay tribute to the original author. </p>
             <hr class="pg-titl-bdr-btm" />
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <ul id="portfolio-flters">
-                    <Btn @click.native="tabClick(0)" active=true>Creative Clock</Btn>
-                    <Btn @click.native="tabClick(1)">Beautiful Clock</Btn>
+                    <Btn @click.native="tabClick(0)" active=true>Beautiful Style</Btn>
+                    <Btn @click.native="tabClick(1)">Creative Design</Btn>
                     <Btn @click.native="tabClick(2)">Electronic Clock</Btn>
                 </ul>
             </div>

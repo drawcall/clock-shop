@@ -339,7 +339,7 @@ margin-top: 5px;
   padding: 10px 62px;
   font-size: 12px;
   line-height: 20px;
-  color: #333;
+  color: #222;
   border-radius: 4px;
   text-transform: uppercase;
   background: #ccc;
@@ -547,7 +547,7 @@ margin-top: 5px;
 }
 #banner
 {
-    background: url('/banner.jpg') no-repeat;
+    background: url('../banner.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     min-height: 500px;

@@ -5,7 +5,7 @@
         <div class="jumbotron">
           <h1 class="small">Welcome To <span class="bold">Clock Shop</span></h1>
           <p class="big">There are a variety of beautiful and unusual clock codes.</p>
-          <a href="#" class="btn btn-banner">Star Me<i class="fa fa-send"></i></a>
+          <a href="https://github.com/a-jie/clock-shop" target="_blank" class="btn btn-banner">Star Me<i class="fa fa-send"></i></a>
         </div>
       </div>
     </div>
