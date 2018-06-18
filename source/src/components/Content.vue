@@ -70,7 +70,7 @@ export default {
     },
     methods: {
         loadData() {
-            axios.get("./data.yaml").then(res => {
+            axios.get("/data.yaml").then(res => {
                 const doc = yaml.safeLoad(res['data'] || res['_body']);
                 doc.forEach(arr => {
                     arr.forEach((val, index, orArr) => orArr[index] = val.replace('https://codepen.io/', '').replace(/^.{1,30}\/pen\//ig, ''));

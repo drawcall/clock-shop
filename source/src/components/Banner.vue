@@ -23,5 +23,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+#banner
+{
+    background: url('/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 500px;
+}
 </style>
