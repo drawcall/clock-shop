@@ -1,12 +1,14 @@
 ![Clock Shop](logo.jpg)
 
 ## Introduction
-On a weekend, I saw a great clock code on the [codepen](https://codepen.io/) website. So I had an idea, why not collect these beautiful clocks and share them with everyone? Good things always have to be enjoyed by more people!
+[Clock Shop](https://a-jie.github.io/clock-shop/) is a website that collects beautiful clock codes. You can visit it [here](https://a-jie.github.io/clock-shop/).
 
-All the code comes from the [codepen](https://codepen.io/) site. They are really great. I want to pay tribute to the original author.
+It contains some creatively designed clock animations, beautifully shaped classic clocks, and some technologically stimulating electronic clocks. All the code comes from the [codepen](https://codepen.io/) website.
 
-## Content
-Clock Shop include some innovative clock animations, beautifully shaped classic clocks, and electronic clocks that are already full of science and technology. I again declare that all these codes come from the [codepen](https://codepen.io/) website
+## Reason
+On a weekend, I saw a great clock code on the [codepen](https://codepen.io/) website. So I had an idea, why not collect these beautiful clocks and share them with everyone? Good things always have to be enjoyed by more people! So I made this website!
+
+All the code comes from the [codepen](https://codepen.io/) site. They are really great. I want to pay tribute to the original author!
 
 ## How to Contribute
 If you want to share your watch code, you can follow this step
