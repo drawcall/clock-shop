@@ -10,9 +10,10 @@
         <div class="row">
             <div class="col-lg-12">
                 <ul id="portfolio-flters">
-                    <Btn @click.native="tabClick(0)" active=true>Beautiful Style</Btn>
-                    <Btn @click.native="tabClick(1)">Creative Design</Btn>
-                    <Btn @click.native="tabClick(2)">Electronic Clock</Btn>
+                    <Btn v-for="btn in btns" :key="btn.index" :index="btn.index"
+                    @click.native="tabClick(btn.index)">
+                        {{ btn.text }}
+                    </Btn>
                 </ul>
             </div>
         </div>
@@ -40,9 +41,18 @@
 <script>
 import axios from 'axios';
 import yaml from 'js-yaml';
-import Btn from './Btn.vue'
+import Btn from './Btn.vue';
+import EventBus from '../utils/eventbus';
+import { arrShuffle } from '../utils/util';
 
-const PAGES = 9;
+const PAGES = 6;
+
+let BTNS = [
+    { index: 0, text: "Beautiful Style" },
+    { index: 1, text: "Creative Design" },
+    { index: 2, text: "Electronic Clock" }];
+
+BTNS = arrShuffle(BTNS);
 
 export default {
     name: 'Content',
@@ -51,9 +61,10 @@ export default {
     },
     data: function () {
         return {
-            currentTab: 0,
+            currentTab: BTNS[0].index,
             pageNum: 0,
             data: [],
+            btns: BTNS,
             get items() {
                 const frist = this.pageNum * PAGES;
                 const num = frist + PAGES;
@@ -61,7 +72,8 @@ export default {
                 return this.allItems ? this.allItems.slice(frist, num) : null;
             },
             get allItems() {
-                return this.data[this.currentTab]||[]
+                EventBus.$emit('BTN_CLICK', this.currentTab);
+                return this.data[this.currentTab] || []
             }
         }
     },

@@ -3,7 +3,7 @@
     <div class="container">
       <div style="visibility: visible; animation-name: zoomIn;" class="col-md-12 text-center wow zoomIn">
         <div class="footer_copyright">
-          <p> © Copyright, a-jie All Rights Reserved.</p>
+          <p> © Copyright, anonymous All Rights Reserved.</p>
           <div class="credits">
             WebSite designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
           </div>

@@ -9,16 +9,17 @@
 
 <script>
 import ppo from 'ppo';
-import Vue from 'vue';
-const bus = new Vue();
+import EventBus from '../utils/eventbus';
 
 export default {
     name: 'Btn',
-    props: ['active'],
+    props: ['active', 'index'],
     created: function () {
-        bus.$on('BTN_CLICK', id => {
-            if (id !== this.id) {
+        EventBus.$on('BTN_CLICK', index => {
+            if (index !== this.index) {
                 this.isActive = false;
+            }else{
+                this.isActive = true;
             }
         });
 
@@ -35,7 +36,7 @@ export default {
     methods: {
         click() {
             this.isActive = true;
-            bus.$emit('BTN_CLICK', this.id);
+            //EventBus.$emit('BTN_CLICK', this.index);
         }
     }
 }
