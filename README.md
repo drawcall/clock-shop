@@ -8,7 +8,7 @@ It contains some creatively designed clock animations, beautifully shaped classi
 ## Reason
 On a weekend, I saw a great clock code on the [codepen](https://codepen.io/) website. So I had an idea, why not collect these beautiful clocks and share them with everyone? Good things always have to be enjoyed by more people! So I made this website!
 
-All the code comes from the [codepen](https://codepen.io/) site. They are really great. I want to pay tribute to the original author!
+All the code comes from the [codepen](https://codepen.io/) site. They are really great. I want to pay tribute to the original author!  
 
 ## How to Contribute
 If you want to share your watch code, you can follow this step
