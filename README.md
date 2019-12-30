@@ -1,7 +1,7 @@
 ![Clock Shop](logo.jpg)
 
 ## Introduction
-#### [Clock Shop](https://a-jie.github.io/clock-shop/) is a website that collects beautiful clock codes. You can visit it [here](https://a-jie.github.io/clock-shop/).
+#### [Clock Shop](https://drawcall.github.io/clock-shop/) is a website that collects beautiful clock codes. You can visit it [here](https://drawcall.github.io/clock-shop/).
 
 It contains some creatively designed clock animations, beautifully shaped classic clocks, and some technologically stimulating electronic clocks. All the code comes from the [codepen](https://codepen.io/) website.
 

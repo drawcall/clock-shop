@@ -24,8 +24,8 @@
             >
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#portfolio">Visit</a></li>
-                    <li><a href="https://github.com/a-jie/clock-shop" target="_blank">Star Me</a></li>
-                    <li><a href="https://github.com/a-jie/clock-shop/pulls" target="_blank">Submit Code</a></li>
+                    <li><a href="https://github.com/drawcall/clock-shop" target="_blank">Star Me</a></li>
+                    <li><a href="https://github.com/drawcall/clock-shop/pulls" target="_blank">Submit Code</a></li>
                 </ul>
         </div>
 </div>
